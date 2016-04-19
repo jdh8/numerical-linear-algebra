@@ -14,10 +14,8 @@ Dependencies
 
 ### (Xe)(La)TeX packages ###
 * [xeCJK][xecjk], support for CJK documents
-* [pstricks-add][pst-add], vector graphics
 
 [microhei]: http://wenq.org/wqy2/index.cgi?MicroHei
-[pst-add]: https://www.ctan.org/pkg/pstricks-add
 [xecjk]: https://www.ctan.org/pkg/xecjk
 [xelatex]: http://www.xelatex.org/
 
