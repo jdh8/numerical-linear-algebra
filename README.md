@@ -9,7 +9,7 @@ translations of technical terms.
 
 Dependencies
 ------------
-* [WenQuanYi Micro Hei][microhei] (文泉驛微米黑), Chinese font
+* [Source Han Sans][microhei] (黑源黑體), Chinese font
 * [XeLaTeX][xelatex], typesetting program
 
 ### (Xe)(La)TeX packages ###

@@ -24,7 +24,7 @@
 \newtheorem{syntax}{文法}
 \newtheorem{axiom}{公理}
 
-\setCJKmainfont[AutoFakeBold=2]{WenQuanYi Micro Hei}
+\setCJKmainfont[AutoFakeBold=2]{Source Han Sans TW}
 \hypersetup{colorlinks, linkcolor=}
 \usetheme{Berlin}
 
