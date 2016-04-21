@@ -1,4 +1,4 @@
-% Copyright (C) 2015 Chen-Pang He <http://jdh8.org/>
+% Copyright (C) 2016 Chen-Pang He <http://jdh8.org/>
 %
 % This file may be distributed and/or modified under
 %
@@ -8,6 +8,8 @@
 % See the files COPYING.* for more details.
 
 \documentclass{Amo}
+\usepackage{algorithm}
+\usepackage{algorithmic}
 
 \begin{document}
 \title{矩陣運算}
@@ -32,5 +34,31 @@
         \item[橫向儲存] 8 2 2 9 9 1 4 4 3 5 4 5
         \item[縱向儲存] 8 9 3 2 1 5 2 4 4 9 4 5 
     \end{description}
+\end{frame}
+
+\begin{frame}{寫程式的喜歡橫向儲存}
+    \begin{algorithm}[H]
+        \begin{algorithmic}
+            \REQUIRE $A$, $B$, $C$ 都是 $m \times n$ 矩陣
+            \ENSURE  $C = A + B$
+            \FOR{$i = 1$ to $m$}
+                \FOR{$j = 1$ to $n$}
+                    \STATE $c_{ij} = a_{ij} + b_{ij}$
+                \ENDFOR
+            \ENDFOR
+        \end{algorithmic}
+        \caption{矩陣加法}
+    \end{algorithm}
+\end{frame}
+
+\begin{frame}{算數學的喜歡縱向儲存}
+    \[ A \mathbf v = \lambda \mathbf v \]
+
+    \[ \begin{bmatrix}
+        a_{11} & a_{12} & a_{13} \\
+        a_{21} & a_{22} & a_{23} \\
+        a_{31} & a_{32} & a_{33}
+    \end{bmatrix} \begin{bmatrix} v_1 \\ v_2 \\ v_3 \end{bmatrix}
+    = \lambda \begin{bmatrix} v_1 \\ v_2 \\ v_3 \end{bmatrix} \]
 \end{frame}
 \end{document}
